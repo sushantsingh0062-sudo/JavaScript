@@ -1,0 +1,16 @@
+let choice  = "tea";
+
+switch(choice){
+    case "tea ":
+console.log ("Tea price : ₹ 10");
+break;
+case "coffee":
+    console.log("Coffee price : ₹ 20 ");
+    break;
+case "juice":
+    console.log ("juice price : ₹ 30 ");
+    break;
+    default:
+        console.log ("item not available");
+
+}
